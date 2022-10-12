@@ -3,7 +3,10 @@
 
 
 #Function that makes the matrix
-mat=[["   " , " 0 " , " 1 " , " 2 " , " 3 " , " 4 " , " 5 "],
+
+
+
+mat=[["---" , " 0 " , " 1 " , " 2 " , " 3 " , " 4 " , " 5 "],
      [" 0 " , " * " , " _ " , " X " , " X " , " _ " , " * "],
      [" 1 " , " _ " , " _ " , " _ " , " _ " , " _ " , " _ "],
      [" 2 " , " _ " , " _ " , " = " , " = " , " _ " , " _ "],
@@ -13,4 +16,4 @@ mat=[["   " , " 0 " , " 1 " , " 2 " , " 3 " , " 4 " , " 5 "],
 #while that keeps the game running until someone wins or loses
 
 #main function
-print(mat)
+print(str(mat))
